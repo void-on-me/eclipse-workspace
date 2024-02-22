@@ -1,0 +1,15 @@
+package opendata;
+
+public class Biblioteca {
+	private String comune;
+	private String denominazioni;
+	private String indirizzo;
+	private int numeroTelefono;
+	private int fax;
+	private String sitoWeb;
+	private String email;
+	private String ulterioriInformazioni;
+	
+	
+	
+}

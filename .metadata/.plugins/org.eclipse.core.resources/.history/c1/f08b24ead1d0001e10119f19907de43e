@@ -1,0 +1,26 @@
+package sale;
+
+public class Barattolo {
+	private double volume;
+	private double contenuto;
+	
+
+	public Barattolo(double volume, double contenuto) {
+		super();
+		this.volume = volume;
+		this.contenuto = 0.0;
+	}
+	
+	public double getVolume() {
+		return volume;
+	}
+	public void setVolume(double volume) {
+		this.volume = volume;
+	}
+	public double getContenuto() {
+		return contenuto;
+	}
+	public void setContenuto(double contenuto) {
+		this.contenuto = contenuto;
+	}
+}

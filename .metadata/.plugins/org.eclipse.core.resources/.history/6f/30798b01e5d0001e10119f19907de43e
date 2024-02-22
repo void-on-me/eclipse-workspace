@@ -1,0 +1,15 @@
+package vrom;
+
+public class UsaVeicoli {
+
+	public static void main(String[] args) {
+		// Vettore di Veicoli
+		Veicolo[] veicolo = new Veicolo[3];
+		
+		veicolo[0] = new Vettura("ABFR8D", "Alfa Romeo", "Stelvio", true, "SUV");
+		veicolo[1] = new Vettura("BAGTF1", "Alfa Romeo", "Giulia", true, "Berlina");
+		veicolo[2] = new Vettura("AFG5GD", "Alfa Romeo", "Tonale", false, "SUV");
+		
+	}
+
+}

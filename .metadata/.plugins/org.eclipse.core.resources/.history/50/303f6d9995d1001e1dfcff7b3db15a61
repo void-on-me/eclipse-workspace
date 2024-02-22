@@ -1,0 +1,29 @@
+package opendata;
+
+
+import java.util.Scanner;
+import java.net.URL;
+import java.io.File;
+
+public class BibliotecaDao {
+	public static void prelevaOpenData() {
+		String biblioteca;
+        
+        try{
+        URL bibliotecaCsv = new URL("https://opendata.cittametropolitanaroma.it/sites/default/files/Biblioteche.csv");
+       // https://opendata.cittametropolitanaroma.it/sites/default/files/Biblioteche.csv
+        Scanner sc = new Scanner(bibliotecaCsv.openStream());
+        
+        while(sc.hasNextLine()) {
+        	biblioteca = sc.nextLine();
+        	System.out.println(biblioteca);
+        }
+        
+          sc.close() ;
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+	}
+  
+
+}

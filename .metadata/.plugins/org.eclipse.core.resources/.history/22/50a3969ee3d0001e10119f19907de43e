@@ -1,0 +1,9 @@
+package vrom;
+
+public class UsaVeicoli {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package opendata;
+
+
+import java.util.Scanner;
+import java.net.URL;
+import java.io.File;
+
+public class Main {
+
+	public static void main(String[] args) {
+		  String parcheggio;
+	        
+	        try{
+	        URL parcheggio_scambio = new URL("https://dati.comune.roma.it/catalog/dataset/23905cfb-eec2-4277-a641-493aa4da5284/resource/fb3144db-eda7-49ae-9c2b-bb9d6c572491/download/movimentazione-canili-roma-capitale-anno-2018.csv");
+	       
+	        
+	        Scanner sc = new Scanner(parcheggio_scambio.openStream());
+	        
+	        while(sc.hasNextLine()) {
+	        	parcheggio = sc.nextLine();
+	        	System.out.println(parcheggio);
+	        }
+	        
+	           
+	        }catch(Exception ex){
+	            ex.printStackTrace();
+	        }
+
+	}
+
+}

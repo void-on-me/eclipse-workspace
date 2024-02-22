@@ -1,0 +1,5 @@
+package vrom;
+
+public class Vettura extends Veicolo{
+
+}

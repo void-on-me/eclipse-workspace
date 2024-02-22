@@ -1,0 +1,11 @@
+package sale;
+
+public class Main {
+	public static void main (String[] args) {
+		// Istanzio la classe Barattolo
+		Barattolo barattolo = new Barattolo(500);
+		barattolo.aggiungiContenuto(200);
+		
+	}
+
+}

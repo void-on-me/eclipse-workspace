@@ -1,0 +1,31 @@
+package opendata;
+
+
+import java.util.Scanner;
+import java.net.URL;
+import java.io.File;
+
+public class Main {
+
+	public static void main(String[] args) {
+		  String parcheggio;
+	        
+	        try{
+	        URL parcheggio_scambio = new URL("https://opendata.cittametropolitanaroma.it/?q=node/77/download");
+	       
+	        
+	        Scanner sc = new Scanner(parcheggio_scambio.openStream());
+	        
+	        while(sc.hasNextLine()) {
+	        	parcheggio = sc.nextLine();
+	        	System.out.println(parcheggio);
+	        }
+	        
+	           
+	        }catch(Exception ex){
+	            ex.printStackTrace();
+	        }
+
+	}
+
+}

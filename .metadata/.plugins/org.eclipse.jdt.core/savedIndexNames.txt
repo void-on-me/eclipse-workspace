@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+/home/michele/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3278025815.index
+3784245231.index
+4244215316.index
+2007555072.index
+57447352.index
+2496053539.index
+2746262188.index

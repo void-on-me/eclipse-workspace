@@ -1,0 +1,10 @@
+package opendata;
+
+public class TestOpenData {
+
+	public static void main(String[] args) {
+		BibliotecaDao.prelevaOpenData();
+
+	}
+
+}

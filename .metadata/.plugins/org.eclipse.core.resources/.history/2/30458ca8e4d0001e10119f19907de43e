@@ -1,0 +1,12 @@
+package vrom;
+
+public class UsaVeicoli {
+
+	public static void main(String[] args) {
+		// Vettore di Veicoli
+		Veicolo[] veicolo = new Veicolo[3];
+		
+		
+	}
+
+}

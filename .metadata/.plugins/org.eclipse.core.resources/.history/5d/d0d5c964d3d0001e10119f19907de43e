@@ -1,0 +1,10 @@
+package sale;
+
+public class Saliera extends Barattolo {
+
+	public Saliera(double volume) {
+		super(volume);
+		
+	}
+	
+}

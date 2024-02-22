@@ -1,0 +1,14 @@
+package sale;
+
+public class Main {
+	public static void main (String[] args) {
+		// Istanzio la classe Barattolo
+		Barattolo barattolo = new Barattolo(500);
+		barattolo.aggiungiContenuto(200);
+		System.out.println("Quantità nel barattolo: " + barattolo.getContenuto());
+		
+		// Istanzio la classe Saliera
+		Saliera saliera = new Saliera(200, 10);
+	}
+
+}

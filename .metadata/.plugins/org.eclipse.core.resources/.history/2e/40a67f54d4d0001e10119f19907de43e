@@ -1,0 +1,11 @@
+package sale;
+
+public class Saliera extends Barattolo {
+	private int numBuchini;
+
+	public Saliera(double volume, int numBuchini) {
+		super(volume);
+		this.numBuchini = numBuchini;
+	}
+	
+}
